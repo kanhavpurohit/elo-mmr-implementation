@@ -153,7 +153,3 @@ Adaptive round weighting did not help: neutral on AtCoder and with the authors' 
 * Nearest 500 subsampling breaks exact monotonicity (up to 0.3 rating points in our test).
 * No TopCoder, Reddit or TrueSkill comparison.
 * Both metrics only score the ordering, so whether σ is calibrated is untested.
-
-## Presentation
-
-`Elo-MMR.pptx` and `Elo-MMR.pdf`: introduction, proposed idea, architecture, results, conclusions and limitations.
