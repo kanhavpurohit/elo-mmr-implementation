@@ -1,0 +1,22 @@
+{
+ "Codeforces (bucketed)": {
+  "seconds": 6.704740499670152,
+  "pair_inv": 78.41105145197136,
+  "rank_dev": 14.8879569212283
+ },
+ "Codeforces (exact O(n^2))": {
+  "seconds": 518.5741850996856,
+  "pair_inv": 78.41105068202147,
+  "rank_dev": 14.887957944712085
+ },
+ "Elo-MMR(rho), authors' params": {
+  "seconds": 39.4318221998401,
+  "pair_inv": 78.60570902865042,
+  "rank_dev": 14.751089592763137
+ },
+ "Elo-MMchi, authors' params": {
+  "seconds": 51.41332789926673,
+  "pair_inv": 78.66698770477278,
+  "rank_dev": 14.716312764903675
+ }
+}

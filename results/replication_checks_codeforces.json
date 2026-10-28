@@ -1,0 +1,212 @@
+{
+ "summary": {
+  "dataset": "Codeforces",
+  "contests": 1089,
+  "players": 292014,
+  "avg_participants": 3008.750229568411,
+  "max_participants": 16783
+ },
+ "fine_grid": {
+  "Codeforces": {
+   "params": {
+    "beta": 30,
+    "weight": 0.631
+   },
+   "train_pair": 74.67226555163703,
+   "on_grid_edge": [
+    "beta"
+   ]
+  },
+  "TopCoder": {
+   "params": {
+    "weight_noob": 0.95,
+    "weight_limit": 0.06
+   },
+   "train_pair": 75.31789650707329,
+   "on_grid_edge": [
+    "weight_noob",
+    "weight_limit"
+   ]
+  },
+  "Elo-MMchi": {
+   "params": {
+    "gaussian": true,
+    "weight_limit": 0.15,
+    "sig_limit": 40
+   },
+   "train_pair": 75.51008118254694,
+   "on_grid_edge": []
+  },
+  "Elo-MMR(rho)": {
+   "params": {
+    "rho": 0.04,
+    "weight_limit": 0.1,
+    "sig_limit": 40
+   },
+   "train_pair": 75.48892873154233,
+   "on_grid_edge": []
+  }
+ },
+ "test": {
+  "Codeforces (fine grid)": {
+   "params": {
+    "beta": 30,
+    "weight": 0.631
+   },
+   "pair_inv": 78.41105068730754,
+   "rank_dev": 14.887954733869751,
+   "seconds": 4.716405200131703
+  },
+  "TopCoder (fine grid)": {
+   "params": {
+    "weight_noob": 0.95,
+    "weight_limit": 0.06
+   },
+   "pair_inv": 78.53976420614592,
+   "rank_dev": 14.788075317104232,
+   "seconds": 94.8978859995841
+  },
+  "Elo-MMchi (fine grid)": {
+   "params": {
+    "gaussian": true,
+    "weight_limit": 0.15,
+    "sig_limit": 40
+   },
+   "pair_inv": 78.59792405113717,
+   "rank_dev": 14.763982757432428,
+   "seconds": 76.50238049920881
+  },
+  "Elo-MMR(rho) (fine grid)": {
+   "params": {
+    "rho": 0.04,
+    "weight_limit": 0.1,
+    "sig_limit": 40
+   },
+   "pair_inv": 78.36531595235923,
+   "rank_dev": 14.919910495355154,
+   "seconds": 91.72638320038095
+  },
+  "Elo-MMR(rho) + drift (fine grid)": {
+   "params": {
+    "rho": 0.04,
+    "weight_limit": 0.1,
+    "sig_limit": 40,
+    "drift_per_day": 10
+   },
+   "pair_inv": 78.62419666954055,
+   "rank_dev": 14.74249048023188,
+   "seconds": 58.609909200138645
+  },
+  "Elo-MMchi + drift (fine grid)": {
+   "params": {
+    "gaussian": true,
+    "weight_limit": 0.15,
+    "sig_limit": 40,
+    "drift_per_day": 3
+   },
+   "pair_inv": 78.64450107402996,
+   "rank_dev": 14.73296519164415,
+   "seconds": 70.81639410072239
+  },
+  "Elo-MMR(rho) authors": {
+   "params": {
+    "weight_limit": 0.23,
+    "sig_limit": 54,
+    "rho": 0.04
+   },
+   "pair_inv": 78.60570902865042,
+   "rank_dev": 14.751089592763137,
+   "seconds": 53.97587780014146
+  },
+  "Elo-MMR(rho) authors + drift10": {
+   "params": {
+    "weight_limit": 0.23,
+    "sig_limit": 54,
+    "rho": 0.04,
+    "drift_per_day": 10
+   },
+   "pair_inv": 78.62757078968383,
+   "rank_dev": 14.736167929558116,
+   "seconds": 49.41664260017569
+  },
+  "Elo-MMchi authors": {
+   "params": {
+    "weight_limit": 0.16,
+    "sig_limit": 74,
+    "gaussian": true
+   },
+   "pair_inv": 78.66698770477278,
+   "rank_dev": 14.716312764903675,
+   "seconds": 75.32130140045774
+  },
+  "Elo-MMchi authors + drift10": {
+   "params": {
+    "weight_limit": 0.16,
+    "sig_limit": 74,
+    "gaussian": true,
+    "drift_per_day": 10
+   },
+   "pair_inv": 78.69869977561765,
+   "rank_dev": 14.696381298469449,
+   "seconds": 69.42653850006172
+  }
+ },
+ "bootstrap": {
+  "Elo-MMR(rho) (fine grid)  minus  TopCoder (fine grid)": {
+   "diff": -0.1744482537866503,
+   "ci95": [
+    -0.20332904905646032,
+    -0.1471413443198813
+   ],
+   "significant": true
+  },
+  "Elo-MMR(rho) (fine grid)  minus  Codeforces (fine grid)": {
+   "diff": -0.045734734948311484,
+   "ci95": [
+    -0.07999463385927719,
+    -0.011920707196191331
+   ],
+   "significant": true
+  },
+  "Elo-MMchi (fine grid)  minus  TopCoder (fine grid)": {
+   "diff": 0.05815984499125193,
+   "ci95": [
+    0.047553967923327535,
+    0.0685539758763607
+   ],
+   "significant": true
+  },
+  "Elo-MMR(rho) + drift (fine grid)  minus  Elo-MMR(rho) (fine grid)": {
+   "diff": 0.25888071718125616,
+   "ci95": [
+    0.24252188825890678,
+    0.2766395933331036
+   ],
+   "significant": true
+  },
+  "Elo-MMchi + drift (fine grid)  minus  Elo-MMchi (fine grid)": {
+   "diff": 0.04657702289271981,
+   "ci95": [
+    0.04208903983046639,
+    0.0512512274333698
+   ],
+   "significant": true
+  },
+  "Elo-MMR(rho) authors + drift10  minus  Elo-MMR(rho) authors": {
+   "diff": 0.02186176103333537,
+   "ci95": [
+    0.01847078321763753,
+    0.025553630764563805
+   ],
+   "significant": true
+  },
+  "Elo-MMchi authors + drift10  minus  Elo-MMchi authors": {
+   "diff": 0.031712070844889695,
+   "ci95": [
+    0.02852292655685673,
+    0.03510256478307347
+   ],
+   "significant": true
+  }
+ }
+}

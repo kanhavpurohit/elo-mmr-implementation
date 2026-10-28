@@ -1,0 +1,6 @@
+{
+ "note": "Elo-MMR(rho) tuned on seed 1 (5x5 grid), scored on seed 0; recorded from the run log (the run was stopped before writing this file, and the two variance variants were not run)",
+ "sd, 25% participation (ours)": {"Elo-MMR(rho)": {"pair_inv": 80.494, "rank_dev": 13.694}, "Elo-MMchi": {"pair_inv": 80.529, "rank_dev": 13.664}},
+ "sd, all players every round": {"Elo-MMR(rho)": {"pair_inv": 81.633, "rank_dev": 12.898}},
+ "paper": {"pair_inv": 81.7, "rank_dev": 12.8}
+}

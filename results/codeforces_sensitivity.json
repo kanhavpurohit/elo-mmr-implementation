@@ -1,0 +1,79 @@
+{
+ "authors mmr": {
+  "kw": {
+   "weight_limit": 0.23,
+   "sig_limit": 54,
+   "rho": 0.04
+  },
+  "pair": 78.60570902865042,
+  "dev": 14.751089592763137
+ },
+ "authors mmr + drift10": {
+  "kw": {
+   "weight_limit": 0.23,
+   "sig_limit": 54,
+   "rho": 0.04,
+   "drift_per_day": 10
+  },
+  "pair": 78.62757078968383,
+  "dev": 14.736167929558116
+ },
+ "authors mmr + drift3": {
+  "kw": {
+   "weight_limit": 0.23,
+   "sig_limit": 54,
+   "rho": 0.04,
+   "drift_per_day": 3
+  },
+  "pair": 78.62508867369677,
+  "dev": 14.737882725520317
+ },
+ "authors mmx": {
+  "kw": {
+   "weight_limit": 0.16,
+   "sig_limit": 74,
+   "gaussian": true
+  },
+  "pair": 78.66698770477278,
+  "dev": 14.716312764903675
+ },
+ "authors mmx + drift10": {
+  "kw": {
+   "weight_limit": 0.16,
+   "sig_limit": 74,
+   "gaussian": true,
+   "drift_per_day": 10
+  },
+  "pair": 78.69869977561765,
+  "dev": 14.696381298469449
+ },
+ "default mmr rho1": {
+  "kw": {
+   "weight_limit": 0.2,
+   "sig_limit": 80,
+   "rho": 1.0
+  },
+  "pair": 78.6010915411265,
+  "dev": 14.75552958958808
+ },
+ "authors mmr + adapt0.5": {
+  "kw": {
+   "weight_limit": 0.23,
+   "sig_limit": 54,
+   "rho": 0.04,
+   "adaptive_alpha": 0.5
+  },
+  "pair": 78.6079564838255,
+  "dev": 14.748938166570442
+ },
+ "tuned + adapt0.5": {
+  "kw": {
+   "weight_limit": 0.1,
+   "sig_limit": 40,
+   "rho": 0.04,
+   "adaptive_alpha": 0.5
+  },
+  "pair": 77.76514437832911,
+  "dev": 15.328425582681316
+ }
+}
